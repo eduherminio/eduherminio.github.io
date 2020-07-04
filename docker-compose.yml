@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+  jekyll:
+    image: local-eduherminio.github.io
+    volumes:
+      - .:/site
+    ports:
+      - '8080:4000'
