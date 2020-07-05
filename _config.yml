@@ -13,16 +13,20 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title:
+title: ""
+title_separator: "|"
+name: "Eduardo Cáceres"
+url: "https://eduherminio.github.io"
+repository: eduherminio/eduherminio.github.io
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: ed_dev_
 github_username: eduherminio
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
+search_full_content: true
 
 # Build settings
 markdown: kramdown
@@ -71,9 +75,6 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/eduherminio"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ed_dev_"
 
 defaults:
   # _posts
@@ -84,7 +85,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -101,3 +102,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development # disable compression in dev environment
