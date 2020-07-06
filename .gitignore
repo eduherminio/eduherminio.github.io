@@ -2,3 +2,10 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+
+# C# stuff
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.out
