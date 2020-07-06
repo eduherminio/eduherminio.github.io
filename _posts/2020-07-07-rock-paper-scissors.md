@@ -13,7 +13,7 @@ tags:
 
 I'm sure all of you have played _Rock, Paper, Scissors_, a simple hand game that is said to [have been around for nearly 2000 years](https://en.wikipedia.org/wiki/Rock_paper_scissors#Origins).
 
-![Rock, Paper, Scissors!](/assets/images/rock_paper_scissors.png)
+![Rock, Paper, Scissors!](/assets/images/rock_paper_scissors.svg)
 
 But has any of you acted as a referee in that game?
 Probably not, and that was exactly the purpose of the [first problem](https://contest.tuenti.net/Challenges?id=0) of Tuenti Challenge 10 (a competitive programming contest that took place early this year): **you had to programmatically create a referee for it**.
@@ -163,4 +163,4 @@ Now a small test for you, avid reader:
 
 Can you find a similar, mathematical approach for [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)?
 
-![Rock, Paper, Scissors, Lizard, Spock!](/assets/images/rock_paper_scissors_lizard_spock.png)
+![Rock, Paper, Scissors, Lizard, Spock!](/assets/images/rock_paper_scissors_lizard_spock.svg)
