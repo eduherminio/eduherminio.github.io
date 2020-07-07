@@ -151,7 +151,7 @@ Let's have a look at what's exactly happening here:
 
 - That allows us to use `Enum.Parse()` to get the correct `Item` from each input, and cast them to get our numbers.
 
-- We feed our algorithm with those numbers, which chooses `"-"` as output if it declares the game a draw, or the string representation of whoever `Item` has won (`R`, `S` or `P`).
+- We feed our algorithm with those numbers, which chooses `-` as output if it declares the game a draw, or the string representation of whoever `Item` has won (`R`, `S` or `P`).
 
 ---
 
