@@ -1,10 +1,10 @@
-version: '2.4'
+version: "2.4"
 
 services:
   jekyll:
     image: local-eduherminio.github.io
-    command: bundle exec jekyll serve --force_polling --future -H 0.0.0.0 -P 4000 # Remove if this PR is merged https://github.com/BretFisher/jekyll-serve/pull/21
+    command: bundle exec jekyll serve --force_polling --future --draft -H 0.0.0.0 -P 4000
     volumes:
       - .:/site
     ports:
-      - '8080:4000'
+      - "8080:4000"
