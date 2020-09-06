@@ -96,7 +96,7 @@ After analyzing our goal, one can conclude that it can be achieved by creating a
 - State 2: Motor off, laser on. The laser is cutting the piece.
 - State 3: Motor off, laser off. Emergency mode (something went wrong), manual intervention is required.
 
-![State machine](/assets/images/2020-09-06-delay-function-is-not-your-friend/state_machine.svg)
+![State machine](/assets/images/2020-09-06-delay-function-is-not-your-friend/state_machine.png)
 
 This first implementation uses `delay()` for handling the amount of time between states 1 and 2.
 

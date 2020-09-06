@@ -132,7 +132,7 @@ void stop_in_case_of_emergency()
 
 You can also find this code [here](https://github.com/eduherminio/eduherminio.github.io/tree/master/code/waiting-in-arduino/3_basic_millis_implementation/3_basic_millis_implementation.ino).
 
-The main functional difference between this implementation and the [`delay()` one](http://localhost:8080/blog/delay_function_is_not_your_friend/#naive-solution-using-delay) is that here each loop iteration lasts only few milliseconds (vs more than 6 seconds in the other case).
+The main functional difference between this implementation and the [`delay()` one](https://eduherminio.github.io/blog/delay_function_is_not_your_friend/#naive-solution-using-delay) is that here each loop iteration lasts only few milliseconds (vs more than 6 seconds in the other case).
 
 Arduino performs many more operations while running this code, but after all, that's what we have it for, right? We don't pay any extra 'price'\* for it.
 
