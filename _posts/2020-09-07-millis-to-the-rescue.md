@@ -18,7 +18,7 @@ In the first post we linked to an [official Arduino tutorial](https://www.arduin
 
 `millis()` "returns the number of milliseconds passed since the Arduino board began running the current program", so it cannot just replace `delay()` (otherwise they would just be the same method!).
 
-Here's the pattern that can be used to replace `delay()` with `millis()` (which you can compare with the equivalent code [using delay](https://eduherminio.github.io/blog/delay_function_is_not_your_friend/#introduction-blinking-a-led)).
+Here's the pattern that can be used to replace `delay()` with `millis()` (which you can compare with the equivalent code [using delay](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#introduction-blinking-a-led)).
 
 ```arduino
 const int waitingMs = 2000;   // 2 seconds
@@ -51,9 +51,9 @@ You can also find this code [here](https://github.com/eduherminio/eduherminio.gi
 
 ## Going back to our case study
 
-Let's get back to our [case study](https://eduherminio.github.io/blog/delay_function_is_not_your_friend/#case-study): we want to build a simple the laser cutting machine.
+Let's get back to our [case study](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#case-study): we want to build a simple the laser cutting machine.
 
-We identified a [first solution](https://eduherminio.github.io/blog/delay_function_is_not_your_friend/#naive-solution-using-delay) based on a fairly right state machine, but it had a main flaw: it wouldn't be able to identify immediately (or at all) when the big, round, red emergency stop button was pressed.
+We identified a [first solution](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#naive-solution-using-delay) based on a fairly right state machine, but it had a main flaw: it wouldn't be able to identify immediately (or at all) when the big, round, red emergency stop button was pressed.
 
 The main issue of our first implementation was using [`delay()` method](https://www.arduino.cc/reference/en/language/functions/time/delay/), which essentially doesn't allow us to check the emergency button as often as we would like to.
 
@@ -132,7 +132,7 @@ void stop_in_case_of_emergency()
 
 You can also find this code [here](https://github.com/eduherminio/eduherminio.github.io/tree/master/code/waiting-in-arduino/3_basic_millis_implementation/3_basic_millis_implementation.ino).
 
-The main functional difference between this implementation and the [`delay()` one](https://eduherminio.github.io/blog/delay_function_is_not_your_friend/#naive-solution-using-delay) is that here each loop iteration lasts only few milliseconds (vs more than 6 seconds in the other case).
+The main functional difference between this implementation and the [`delay()` one](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#naive-solution-using-delay) is that here each loop iteration lasts only few milliseconds (vs more than 6 seconds in the other case).
 
 Arduino performs many more operations while running this code, but after all, that's what we have it for, right? We don't pay any extra 'price'\* for it.
 

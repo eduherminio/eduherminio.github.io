@@ -157,4 +157,4 @@ The main issue with this piece of code is that when the microcontroller executes
 - If someone kept the emergency button pressed, our machine wouldn't immediately stop: it could take it up to 3 seconds to do it.
 - If someone just pressed the emergency button and released it, it could be easily missed by our program if that didn't happen just before the emergency check.
 
-Jump straight to [Waiting in Arduino II: millis() function to the rescue](https://eduherminio.github.io/blog/millis_to_the_rescue/) to analyze a better way of coding this.
+Jump straight to [Waiting in Arduino II: millis() function to the rescue](https://eduherminio.github.io/blog/millis-to-the-rescue/) to analyze a better way of coding this.
