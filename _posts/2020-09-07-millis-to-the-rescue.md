@@ -18,7 +18,7 @@ In the first post we linked to an [official Arduino tutorial](https://www.arduin
 
 `millis()` "returns the number of milliseconds passed since the Arduino board began running the current program", so it cannot just replace `delay()` (otherwise they would just be the same method!).
 
-Here's the pattern that can be used to replace `delay()` with `millis()` (which you can compare with the equivalent code [using delay](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#introduction-blinking-a-led)).
+Here's the pattern that can be used to replace `delay()` with `millis()` (which you can compare with the [equivalent code using delay](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#introduction-blinking-a-led)).
 
 ```arduino
 const int waitingMs = 2000;   // 2 seconds

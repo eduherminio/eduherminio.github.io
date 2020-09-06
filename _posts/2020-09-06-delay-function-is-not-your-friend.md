@@ -80,7 +80,7 @@ We want to be able to:
 - Be able to stop the machine using a big, red 'Emergency stop' button if needed.
 
 ![Conveyor belt DIY project](/assets/images/2020-09-06-delay-function-is-not-your-friend/conveyor_belt.jpg)
-Conveyor belt DIY project ([Source](https://www.instructables.com/id/MODULAR-PORTABLE-CONVEYOR-BELT-SPEED-CONTROL-BY-AR/))
+Conveyor belt DIY project ([source](https://www.instructables.com/id/MODULAR-PORTABLE-CONVEYOR-BELT-SPEED-CONTROL-BY-AR/))
 
 Let's assume for now that it takes three seconds to move a piece from the beginning of the conveyor belt to the laser position and another three seconds to cut the piece using the laser.
 
