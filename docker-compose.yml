@@ -2,7 +2,7 @@ version: "2.4"
 
 services:
   jekyll:
-    image: local-eduherminio.github.io
+    image: bretfisher/jekyll-serve
     command: bundle exec jekyll serve --force_polling --future --draft -H 0.0.0.0 -P 4000
     volumes:
       - .:/site

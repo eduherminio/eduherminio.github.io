@@ -9,3 +9,6 @@ obj/
 [Dd]ebug/
 [Rr]elease/
 *.out
+
+# Arduino
+build/
