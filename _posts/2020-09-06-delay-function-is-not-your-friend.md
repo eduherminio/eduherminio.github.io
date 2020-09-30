@@ -20,7 +20,7 @@ An exception to that statement shows up when you start programming devices that 
 
 This is typically the first Arduino program (or [sketch](https://www.arduino.cc/en/tutorial/sketch)) that Arduino enthusiasts write (simpler code can be found in [this official tutorial](https://www.arduino.cc/en/Tutorial/Blink)):
 
-```arduino
+```c++
 const int waitingTime = 2000;   // 2 seconds
 bool ledState = LOW;
 
@@ -100,7 +100,7 @@ After analyzing our goal, one can conclude that it can be achieved by creating a
 
 This first implementation uses `delay()` for handling the amount of time between states 1 and 2.
 
-```arduino
+```c++
 const unsigned long waiting_time_ms = 3000;   // 3s
 
 void setup() { Serial.begin(9600); }

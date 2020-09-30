@@ -20,7 +20,7 @@ In the first post we linked to an [official Arduino tutorial](https://www.arduin
 
 Here's the pattern that can be used to replace `delay()` with `millis()` (which you can compare with the [equivalent code using delay](https://eduherminio.github.io/blog/delay-function-is-not-your-friend/#introduction-blinking-a-led)).
 
-```arduino
+```c++
 const int waitingMs = 2000;   // 2 seconds
 unsigned long previousMillis = 0;
 bool ledState = LOW;
@@ -61,7 +61,7 @@ The main issue of our first implementation was using [`delay()` method](https://
 
 Let's apply the pattern we just learned to our code:
 
-```arduino
+```c++
 const unsigned long waiting_time_ms = 3000;   // 3s
 unsigned long saved_moment = 0;
 int state = 0;
