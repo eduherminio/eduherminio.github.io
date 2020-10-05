@@ -157,7 +157,7 @@ Let's have a look at what's exactly happening here:
 
 Hope you liked it!
 
-You can find [here](https://github.com/eduherminio/eduherminio.github.io/tree/master/code/2020-07-07-rock-paper-scissors) the complete implementation I used for the challenge, which includes reading the data from an input file and writing the results to an output one.
+You can find [here](https://github.com/eduherminio/eduherminio.github.io/tree/master/code/2020-07-07-rock-paper-scissors) the complete implementation I used for the challenge, which includes reading the data from an input file and writing the results to an output one, and an interactive version of it, which allows you to play against the computer.
 
 Now a small test for you, avid reader:
 

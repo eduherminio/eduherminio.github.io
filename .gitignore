@@ -5,6 +5,7 @@ Gemfile.lock
 tmp/
 
 # C# stuff
+.vs/
 bin/
 obj/
 [Dd]ebug/
