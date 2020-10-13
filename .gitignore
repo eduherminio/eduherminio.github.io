@@ -11,6 +11,7 @@ obj/
 [Dd]ebug/
 [Rr]elease/
 *.out
+global.json
 
 # Arduino
 build/

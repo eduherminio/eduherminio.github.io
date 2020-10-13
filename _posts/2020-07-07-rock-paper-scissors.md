@@ -7,7 +7,10 @@ tags:
   - csharp
   - competitiveprogramming
   - maths
+series: "Rock, Paper, Scissors"
 ---
+
+{% include series.html.liquid content=" " %}
 
 ## Introduction
 
@@ -161,6 +164,6 @@ You can find [here](https://github.com/eduherminio/eduherminio.github.io/tree/ma
 
 Now a small test for you, avid reader:
 
-Can you find a similar, mathematical approach for [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)?
+Can you find a similar, mathematical approach for [_Rock, Paper, Scissors, Lizard, Spock_](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)?
 
 ![Rock, Paper, Scissors, Lizard, Spock!](/assets/images/2020-07-07-rock-paper-scissors/rock_paper_scissors_lizard_spock.svg)

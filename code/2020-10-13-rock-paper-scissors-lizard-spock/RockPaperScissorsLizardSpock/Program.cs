@@ -3,7 +3,7 @@ using System.Linq;
 
 public static class Program
 {
-    private enum Item { Rock, Paper, Scissors }
+    private enum Item { Rock, Paper, Scissors, Spock, Lizard }
 
     private static readonly string[] ItemArray = Enum.GetNames(typeof(Item));
     private static readonly Random Rnd = new Random((int)DateTime.Now.Ticks & 0x0000FFFF);

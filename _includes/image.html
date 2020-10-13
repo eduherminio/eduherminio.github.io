@@ -1,4 +1,12 @@
-<figure class="image" style="text-align:center">
+{% assign align = include.align %}
+
+{% unless align %}
+  {% assign align = "center" %}
+{% endunless %}
+
+<p align="{{ align }}">
   <img src="{{ include.url }}" alt="{{ include.description }}">
-  <figcaption style="text-align:center">{{ include.description }}</figcaption>
-</figure>
+  {% if include.caption %}
+  <figcaption align="{{ align }}">{{ include.caption }}</figcaption>
+  {% endif %}
+</p>
