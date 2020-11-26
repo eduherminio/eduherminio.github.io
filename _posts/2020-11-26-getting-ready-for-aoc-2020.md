@@ -74,7 +74,7 @@ Day 3, part 1:          20                    125 ms
 Day 3, part 2:          3200000               400 ms
 ```
 
-## Come, join us 😏
+## Come join us 😏
 
 There are tons of tools like mine out there written in/for multiple languages, and honestly most people don't bother or care about doing anything like that, because the only thing that [adventofcode.com](adventofcode.com) needs is final solution to the problem!
 
