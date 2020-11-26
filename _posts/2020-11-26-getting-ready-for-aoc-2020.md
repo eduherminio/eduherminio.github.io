@@ -32,7 +32,7 @@ However, AoC is not only about solving problems, but also about learning from (o
 
 Please don't let those amazing examples intimidate you, most of us solve the problems in more down-to-earth ways and just enjoy reading about other people's solutions afterwards. And of once a problem is out, you can solve whenever you find time for it, not only during that day (or year!).
 
-However, if 2020 is not your first time and you want to go all in for the public leaderboard, don't miss [this blog entry](https://blog.vero.site/post/advent-leaderboard#fn4) by [betaveros](https://www.reddit.com/user/betaveros/) (#1 in 2019 and #2 in 2018 public leaderboards).
+Having said that, if 2020 is not your first time and you want to go all in for the public leaderboard, don't miss [this blog entry](https://blog.vero.site/post/advent-leaderboard#fn4) by [betaveros](https://www.reddit.com/user/betaveros/) (#1 in 2019 and #2 in 2018 public leaderboards).
 
 You can listen to [this inspiring talk](https://youtu.be/gibVyxpi-qA) by Eric himself where he speaks about why he decided to organize it for the first time, the unexpected success he got the first advent day of the first year (his estimation about the number of participants was of by... 5,600% after the first 12 hours), how he keeps preparing it every year and [the amazing community](https://www.reddit.com/r/adventofcode) that has arisen around it.
 
