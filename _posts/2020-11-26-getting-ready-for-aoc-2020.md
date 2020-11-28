@@ -56,25 +56,14 @@ In case anyone is curious about it, here you can see the entrypoint to my consol
 If I name the problem classes correctly and have the input files in the right folder, I just need to invoke:
 
 ```csharp
-new ProblemSolver().solver.SolveAllProblemsWithMetrics()
+using AoCHelper;
+
+Solver.SolveAll();
 ```
 
-and I'll get some output that measured the performance of each solution. 
+and I'll get some output that measured the performance of each solution:
 
-Something like this, but with colors associated to different ranges of ms:
-
-```bash
-$> dotnet run -c Release
-
-Day 1, part 1:          1234                  1 ms
-Day 1, part 2:          5678                  9 ms
-
-Day 2, part 1:          sol21                 4 ms
-Day 2, part 2:          sol22                 20 ms
-
-Day 3, part 1:          20                    125 ms
-Day 3, part 2:          3200000               400 ms
-```
+![Console output showing a table with he solution to multiple problems and the elapsed time in each one](/assets/images/2020-11-26-getting-ready-for-aoc-2020/console_output.png)
 
 ## Come join us 😏
 
