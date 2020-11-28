@@ -44,7 +44,7 @@ In my case, I don't focus on competing in any leaderboards, but just having fun 
 
 I discovered AoC in 2018, and that same year while going through the problems I started creating some kind of ['mini-framework' for solving AoC problems using .NET](https://github.com/eduherminio/AoCHelper).
 
-I have to admit I had almost as much fun solving the actual problems as I did writing that util, which I released in 2019 as [AoCHelper NuGet library](https://www.nuget.org/packages/AoCHelper/).
+I have to admit I had almost as much fun solving the actual problems as I did writing that util, which I released in 2019 as [`AoCHelper` NuGet library](https://www.nuget.org/packages/AoCHelper/).
 
 This year I've tried to improve AoCHelper before starting the actual problem solving, to try to focus on finding the solutions to those problems rather than on tweaking the framework, but we'll see 😉.
 **And yeah, that has been all my 'preparation'.**
@@ -63,7 +63,11 @@ Solver.SolveAll();
 
 and I'll get some output that measured the performance of each solution:
 
-![Console output showing a table with he solution to multiple problems and the elapsed time in each one](/assets/images/2020-11-26-getting-ready-for-aoc-2020/console_output.png)
+![Console output showing a table with the solution to multiple problems and the elapsed time that took to solve each one](/assets/images/2020-11-26-getting-ready-for-aoc-2020/console_output.png)
+
+### EDIT
+
+I've also created [this GitHub repository template](https://github.com/eduherminio/AdventOfCode.Template) to allow anyone to quickly start solving puzzles.
 
 ## Come join us 😏
 
