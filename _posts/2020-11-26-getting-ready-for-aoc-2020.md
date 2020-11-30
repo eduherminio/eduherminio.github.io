@@ -22,7 +22,7 @@ However, AoC is not only about solving problems, but also about learning from (o
 
 - Some people solve certain problems using [**Minecraft**](https://www.reddit.com/r/adventofcode/comments/e7ylwd/i_solved_day_8_entirely_in_minecraft/).
 
-- Others manage to solve a good number of them using [**Excel**](https://www.youtube.com/playlist?list=PL5ZJ5xCmOlkmsxkFbYj4qtQzPmRFfM451) (which includes implementing [made-up programming languages](https://esolangs.org/wiki/Intcode#:~:text=Intcode%20is%20an%20esoteric%20programming,%2C%2021%2C%2023%20and%2025.) in a [spreadsheet](https://www.reddit.com/r/adventofcode/comments/ea8mif/2019_day_13_excel_did_you_think_i_would_give_up/)).
+- Others manage to solve all problems using [**Excel**](https://github.com/pengi/advent_of_code/tree/master/2019) (which sometimes requires implementing [made-up programming languages](https://esolangs.org/wiki/Intcode#:~:text=Intcode%20is%20an%20esoteric%20programming,%2C%2021%2C%2023%20and%2025.) in a [spreadsheet](https://www.reddit.com/r/adventofcode/comments/ea8mif/2019_day_13_excel_did_you_think_i_would_give_up/)).
 
 - A few geniuses stick to more canonical languages/approaches, but [**solve all 25 problems in 9ms**](https://www.reddit.com/r/adventofcode/comments/jf03dr/2019_optimized_solutions_in_c_9_ms_total/).
 
