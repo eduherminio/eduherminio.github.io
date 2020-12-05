@@ -1,5 +1,6 @@
 ---
 title: "Waiting in Arduino III: wise methods (simple example)"
+excerpt: "Usage of 'wise' methods pattern to handle states in Arduino."
 date: 2020-09-30T00:00:00+00:00
 categories:
   - blog

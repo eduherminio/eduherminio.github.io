@@ -1,5 +1,6 @@
 ---
 title: "Waiting in Arduino I: delay() function is not your friend"
+excerpt: "Why delay() function isn't the recommended approach for waiting in Arduino"
 date: 2020-09-06T00:00:00+00:00
 categories:
   - blog

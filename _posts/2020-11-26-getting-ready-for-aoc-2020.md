@@ -1,5 +1,6 @@
 ---
 title: "Getting ready for Advent of Code 2020"
+excerpt: "Introduction to Advent of Code and what I personally did to prepare for this year's edition."
 date: 2020-11-26T00:00:00+00:00
 categories:
   - blog

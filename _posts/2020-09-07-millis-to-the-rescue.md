@@ -1,5 +1,6 @@
 ---
 title: "Waiting in Arduino II: millis() function to the rescue"
+excerpt: "millis() function as the alternative to using delay() in Arduino."
 date: 2020-09-07T00:00:00+00:00
 categories:
   - blog

@@ -1,5 +1,6 @@
 ---
 title: "Rock, Paper, Scissors: a mathematical approach"
+excerpt: "An alternative, 'mathematical' algorithm to decide the winner of 'Rock, Paper, Scissors'"
 date: 2020-07-07T00:00:00+00:00
 categories:
   - blog
