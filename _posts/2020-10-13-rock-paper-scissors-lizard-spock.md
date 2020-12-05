@@ -1,6 +1,6 @@
 ---
 title: "Rock, Paper, Scissors, Lizard, Spock"
-excerpt: 'Solving "Rock, Paper, Scissors, Lizard, Spock' using an alternative, 'mathematical' approach"
+excerpt: "Solving 'Rock, Paper, Scissors, Lizard, Spock' using an alternative, 'mathematical' approach"
 date: 2020-10-13T00:00:00+00:00
 categories:
   - blog
