@@ -72,7 +72,7 @@ I've also created [this GitHub repository template](https://github.com/eduhermin
 
 ## Come join us 😏
 
-There are tons of tools like mine out there written in/for multiple languages, and honestly most people don't bother or care about doing anything like that, because the only thing that [adventofcode.com](adventofcode.com) needs is final solution to the problem!
+There are tons of tools like mine out there written in/for multiple languages, and honestly most people don't bother or care about doing anything like that, because the only thing that [Advent of Code](https://adventofcode.com) needs is final solution to the problem!
 
 For the last two years [this repo](https://github.com/Bogdanp/awesome-advent-of-code) has been aggregating other repositories with solutions and utilities in different languages: Python, JS, TS, Ruby, Java, C++, Ada, Clojure, Prolog and a long etc. You can go there and just have a look, or open a PR to share your own ones!
 
